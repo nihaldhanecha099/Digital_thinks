@@ -1,10 +1,11 @@
-"homepage": "https://nihaldhanecha099.github.io/Digital_thinks",
 
 
 {
   "name": "digitall",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nihaldhanecha099.github.io/Digital_thinks",
+
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
