@@ -1,0 +1,38 @@
+.website-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.website-container h1 {
+  color: #1e3799;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.website-container h2 {
+  color: #3867d6;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.website-container h3 {
+  color: #4b7bec;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.website-container ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.website-container ul li {
+  margin-bottom: 10px;
+}
+
+.website-container p {
+  margin-bottom: 15px;
+}

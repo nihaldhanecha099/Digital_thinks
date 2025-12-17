@@ -1,0 +1,46 @@
+.website-design-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.website-design-container h1 {
+  color: #1e3799;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.website-design-container h2 {
+  color: #3867d6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  color: #1e3799;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,58 @@
+/* Container for all blogs */
+.blog_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f5f6fa;
+}
+
+/* Individual blog card */
+.blog_name {
+  background-color: #ffffff;
+  width: 250px; /* Adjust width for each block */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect */
+.blog_name:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog title */
+.blog_name h2 {
+  font-size: 1.2rem;
+  color: #1e3799;
+  margin-bottom: 15px;
+}
+
+/* Read More link */
+.blog_name a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3867d6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Link hover effect */
+.blog_name a:hover {
+  background-color: #4a69bd;
+}
+
+/* Responsive: stack cards on smaller screens */
+@media (max-width: 768px) {
+  .blog_container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

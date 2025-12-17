@@ -1,0 +1,91 @@
+/* Container for all service sections */
+.section-container {
+  max-width: 1000px;
+  margin: 100px auto 50px auto; /* Leave space for sticky navbar */
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  line-height: 1.8;
+}
+.whatsap{
+  justify-items: center;
+  align-items: center;
+
+}
+
+/* Section headings */
+.section-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0077ff; /* Primary brand color */
+}
+
+.section-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #333333;
+  border-bottom: 2px solid #0077ff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.section-container h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+/* Paragraph styling */
+.section-container p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+/* List styling */
+.section-container ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.section-container ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Links inside paragraphs (if any) */
+.section-container a {
+  color: #0077ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.section-container a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .section-container h1 {
+    font-size: 2rem;
+  }
+
+  .section-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .section-container h3 {
+    font-size: 1.25rem;
+  }
+
+  .section-container {
+    padding: 0 15px;
+  }
+}

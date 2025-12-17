@@ -1,0 +1,50 @@
+.footerContainer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.section {
+  flex: 1 1 200px;
+}
+
+.section h3 {
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.list li a:hover {
+  color: #ff9800;
+}
+
+.copyRight {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}

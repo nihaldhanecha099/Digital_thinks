@@ -1,0 +1,77 @@
+.common-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #1f2937;
+  line-height: 1.7;
+}
+.whatsap{
+  justify-items: center;
+  align-items: center;
+
+}
+
+.common-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #4f46e5;
+}
+
+.common-intro {
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.common-subheading {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #4f46e5;
+  border-bottom: 2px solid #a5b4fc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.common-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.common-list li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.common-conclusion {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: center;
+  color: #111827;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .common-section {
+    padding: 15px;
+  }
+
+  .common-heading {
+    font-size: 28px;
+  }
+
+  .common-subheading {
+    font-size: 22px;
+  }
+
+  .common-intro,
+  .common-list li,
+  .common-conclusion {
+    font-size: 16px;
+  }
+}

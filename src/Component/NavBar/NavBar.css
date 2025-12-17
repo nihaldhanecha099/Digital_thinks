@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 999;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: transform 0.4s ease;
+}
+
+.nav-container.hidden {
+  transform: translateY(-100%);
+}
+
+/* INNER */
+.nav-inner {
+  height: 70px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.nav-logo {
+  height: 45px;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #0072ff;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-title {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  min-width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  display: none;
+  overflow: hidden;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 16px;
+}
+
+.dropdown-menu a:hover {
+  background: #f0f4ff;
+}
+
+/* DESKTOP HOVER */
+@media (min-width: 769px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* MENU BAR */
+.menu-bar {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-bar span {
+  width: 26px;
+  height: 3px;
+  background: #222;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.menu-bar.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px,5px);
+}
+.menu-bar.open span:nth-child(2) {
+  opacity: 0;
+}
+.menu-bar.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px,-6px);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .menu-bar {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+    box-shadow: none;
+    background: #f7f7f7;
+    margin-top: 8px;
+  }
+}
+
+/* BODY OFFSET */
+body {
+  padding-top: 70px;
+}

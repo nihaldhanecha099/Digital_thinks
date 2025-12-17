@@ -1,0 +1,38 @@
+/* Home Page Wrapper */
+.home-container {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+/* Section spacing */
+.home-section {
+  margin: 60px 0;
+}
+
+/* Smooth fade animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-section {
+  animation: fadeInUp 0.7s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px;
+  }
+  .home-section {
+    margin: 40px 0;
+  }
+}
