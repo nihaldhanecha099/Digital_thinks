@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Digital_thinks/static/css/main.dc14f9f9.css",
-    "main.js": "/Digital_thinks/static/js/main.7ae17435.js",
-    "static/js/453.e72f75c1.chunk.js": "/Digital_thinks/static/js/453.e72f75c1.chunk.js",
-    "static/media/modern-equipped-computer-lab (1).jpg": "/Digital_thinks/static/media/modern-equipped-computer-lab (1).45e4f26e2ea900986608.jpg",
-    "static/media/marketing-computer-sign-symbol-concept.jpg": "/Digital_thinks/static/media/marketing-computer-sign-symbol-concept.b8ae13fc5921268eed5b.jpg",
-    "static/media/male-female-graphic-designers-using-graphics-tablet.jpg": "/Digital_thinks/static/media/male-female-graphic-designers-using-graphics-tablet.cfe62d5288fd6b6336c5.jpg",
-    "static/media/magnifying-glass-with-seo-concepts.jpg": "/Digital_thinks/static/media/magnifying-glass-with-seo-concepts.4fa4f92cc93f3b615af5.jpg",
-    "static/media/innovative-futuristic-classroom-students.jpg": "/Digital_thinks/static/media/innovative-futuristic-classroom-students.64e1c0bbf51c34d11af1.jpg",
-    "static/media/digital-marketing-with-icons-business-people.jpg": "/Digital_thinks/static/media/digital-marketing-with-icons-business-people.2061a2dc4fbd733c2169.jpg",
-    "static/media/Digital Think.mp4": "/Digital_thinks/static/media/Digital Think.45fc1e10d37d34ac7e32.mp4",
-    "static/media/BD2.webp": "/Digital_thinks/static/media/BD2.4eb7b68993feb7ec784f.webp",
-    "static/media/FDM1.webp": "/Digital_thinks/static/media/FDM1.3aae87d16c848a82374a.webp",
-    "static/media/SEO3.webp": "/Digital_thinks/static/media/SEO3.21fe5c47e3c8a0c87ac2.webp",
-    "static/media/img2_web.jpg": "/Digital_thinks/static/media/img2_web.dbcc459a38bc2462d56c.jpg",
-    "static/media/img4-shopify-migration.avif": "/Digital_thinks/static/media/img4-shopify-migration.a40bc4cd8586a964e8ec.avif",
-    "static/media/LOGO-digital.webp": "/Digital_thinks/static/media/LOGO-digital.87a946435327c4460ad8.webp",
-    "static/media/img3_graphic.avif": "/Digital_thinks/static/media/img3_graphic.e012226e7ca1ebca5a92.avif",
-    "static/media/img1_digitalmarketing.jpg": "/Digital_thinks/static/media/img1_digitalmarketing.073b22c4625cf97d98b5.jpg",
-    "index.html": "/Digital_thinks/index.html",
-    "main.dc14f9f9.css.map": "/Digital_thinks/static/css/main.dc14f9f9.css.map",
-    "main.7ae17435.js.map": "/Digital_thinks/static/js/main.7ae17435.js.map",
-    "453.e72f75c1.chunk.js.map": "/Digital_thinks/static/js/453.e72f75c1.chunk.js.map"
+    "main.css": "/digital_thinks/static/css/main.dc14f9f9.css",
+    "main.js": "/digital_thinks/static/js/main.8021177d.js",
+    "static/js/453.e72f75c1.chunk.js": "/digital_thinks/static/js/453.e72f75c1.chunk.js",
+    "static/media/modern-equipped-computer-lab (1).jpg": "/digital_thinks/static/media/modern-equipped-computer-lab (1).45e4f26e2ea900986608.jpg",
+    "static/media/marketing-computer-sign-symbol-concept.jpg": "/digital_thinks/static/media/marketing-computer-sign-symbol-concept.b8ae13fc5921268eed5b.jpg",
+    "static/media/male-female-graphic-designers-using-graphics-tablet.jpg": "/digital_thinks/static/media/male-female-graphic-designers-using-graphics-tablet.cfe62d5288fd6b6336c5.jpg",
+    "static/media/magnifying-glass-with-seo-concepts.jpg": "/digital_thinks/static/media/magnifying-glass-with-seo-concepts.4fa4f92cc93f3b615af5.jpg",
+    "static/media/innovative-futuristic-classroom-students.jpg": "/digital_thinks/static/media/innovative-futuristic-classroom-students.64e1c0bbf51c34d11af1.jpg",
+    "static/media/digital-marketing-with-icons-business-people.jpg": "/digital_thinks/static/media/digital-marketing-with-icons-business-people.2061a2dc4fbd733c2169.jpg",
+    "static/media/Digital Think.mp4": "/digital_thinks/static/media/Digital Think.45fc1e10d37d34ac7e32.mp4",
+    "static/media/BD2.webp": "/digital_thinks/static/media/BD2.4eb7b68993feb7ec784f.webp",
+    "static/media/FDM1.webp": "/digital_thinks/static/media/FDM1.3aae87d16c848a82374a.webp",
+    "static/media/SEO3.webp": "/digital_thinks/static/media/SEO3.21fe5c47e3c8a0c87ac2.webp",
+    "static/media/img2_web.jpg": "/digital_thinks/static/media/img2_web.dbcc459a38bc2462d56c.jpg",
+    "static/media/img4-shopify-migration.avif": "/digital_thinks/static/media/img4-shopify-migration.a40bc4cd8586a964e8ec.avif",
+    "static/media/LOGO-digital.webp": "/digital_thinks/static/media/LOGO-digital.87a946435327c4460ad8.webp",
+    "static/media/img3_graphic.avif": "/digital_thinks/static/media/img3_graphic.e012226e7ca1ebca5a92.avif",
+    "static/media/img1_digitalmarketing.jpg": "/digital_thinks/static/media/img1_digitalmarketing.073b22c4625cf97d98b5.jpg",
+    "index.html": "/digital_thinks/index.html",
+    "main.dc14f9f9.css.map": "/digital_thinks/static/css/main.dc14f9f9.css.map",
+    "main.8021177d.js.map": "/digital_thinks/static/js/main.8021177d.js.map",
+    "453.e72f75c1.chunk.js.map": "/digital_thinks/static/js/453.e72f75c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc14f9f9.css",
-    "static/js/main.7ae17435.js"
+    "static/js/main.8021177d.js"
   ]
 }
